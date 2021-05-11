@@ -75,5 +75,8 @@ const animate = function() {
         ball.ballMotion(balls);
     });
 }
-init();
-animate();
+
+window.addEventListener('load', function() {
+    init();
+    animate();
+});
